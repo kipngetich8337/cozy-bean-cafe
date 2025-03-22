@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+
+}
+.header, .footer{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(25, 179, 226);
+    text-align: center;
+    color: white;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-image: url(WhatsApp\ Image\ 2025-03-22\ at\ 13.44.04_0d01f524.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: yellow;
+}
+th, td{
+    padding: 5px;
+    border: 1.5px solid rgb(28, 162, 234) ;
+    backdrop-filter: blur(30px);
+}
+.footer a:hover{
+    color: red;
+}
